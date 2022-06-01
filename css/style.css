@@ -231,8 +231,6 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 
-
-
 .fh5co-bg {
   background-position: center center;
   width: 100%;
@@ -778,17 +776,6 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 
-.whats{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: -moz-inline-stack;
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-  font-size: 20px;
-}
-
 .fh5co-contact-info ul {
   padding: 0;
   margin: 0;
@@ -1090,7 +1077,6 @@ form label {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  
 }
 .couple-half .groom img, .couple-half .bride img {
   width: 150px;
@@ -1120,8 +1106,8 @@ form label {
   margin-left: 5px;
 }
 .couple-half .desc-groom {
-  
-  text-align: center;
+  padding-right: 180px;
+  text-align: right;
 }
 .couple-half .desc-bride {
   padding-left: 180px;
@@ -1854,71 +1840,4 @@ form label {
   opacity: 0;
 }
 
-.mesaregalos{
-  display: flex;
-  justify-content: space-evenly;
-  width: 50%;
-  flex-wrap: wrap;
-}
-.mesaregalos div{
-  display: grid;
-  place-items: center;
-  padding: 10px;
-}
-#regalos{
-  display: flex;
-  justify-content: center;
-  place-items: center;
-  border: solid 5px rgb(0, 0, 0);
-  height: 100px;
-  width: 300px;
-  border-radius: 20%;
-  color: rgb(0, 0, 0);
-  font-size: 1.2rem;
-  font-weight: bold;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 5px 10px 10px 0 #000000;
-}
-#regalos img {
-  margin-right: 20px;
-}
-.marcostiendas{
-  width: 100%;
-  min-height: 25vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: rgb(255, 255, 255);
-}
-
-.btn-flotante {
-	font-size: 16px; /* Cambiar el tamaño de la tipografia */
-	text-transform: uppercase; /* Texto en mayusculas */
-	font-weight: bold; /* Fuente en negrita o bold */
-	color: #ffffff; /* Color del texto */
-	border-radius: 5px; /* Borde del boton */
-	letter-spacing: 2px; /* Espacio entre letras */
-	background-color: #E91E63; /* Color de fondo */
-	padding: 18px 30px; /* Relleno del boton */
-	position: fixed;
-	bottom: 40px;
-	right: 40px;
-	transition: all 300ms ease 0ms;
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-	z-index: 99;
-}
-.btn-flotante:hover {
-	background-color: #2c2fa5; /* Color de fondo al pasar el cursor */
-	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-	transform: translateY(-7px);
-}
-@media only screen and (max-width: 600px) {
- 	.btn-flotante {
-		font-size: 14px;
-		padding: 12px 20px;
-		bottom: 20px;
-		right: 20px;
-	}
-} 
 /*# sourceMappingURL=style.css.map */
