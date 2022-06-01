@@ -201,7 +201,7 @@
 			$('#fh5co-counter').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-					setTimeout( counter , 400);					
+					setTimeout( counter , 400);
 					$(this.element).addClass('animated');
 				}
 			} , { offset: '90%' } );
@@ -213,7 +213,15 @@
 		$(window).stellar();
 	};
 
-	
+	// animación scroll de menus
+	$('#link-gallery').on('click', function(event){
+		event.preventDefault();
+		$('html, body').animate({
+			scrollTop: $("#fh5co-gallery").offset().top
+		}, 1200, 'easeInOutExpo');
+		return false;
+	});
+
 	$(function(){
 		mobileMenuOutsideClick();
 		parallax();
