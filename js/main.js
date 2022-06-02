@@ -149,6 +149,23 @@
         });
     };
 
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        center:true,
+        margin:10,
+        nav:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
 
     var goToTop = function() {
 
@@ -203,10 +220,59 @@
     };
 
     // animación scroll de menus
+
+    $('#link-inicio').on('click', function(event){
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#fh5co-couple").offset().top
+        }, 1200, 'easeInOutExpo');
+        return false;
+    });
+
+    $('#link-fechayubi').on('click', function(event){
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#fh5co-event").offset().top
+        }, 1200, 'easeInOutExpo');
+        return false;
+    });
+
+    $('#link-story').on('click', function(event){
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#fh5co-couple-story").offset().top
+        }, 1200, 'easeInOutExpo');
+        return false;
+    });
+
     $('#link-gallery').on('click', function(event){
         event.preventDefault();
         $('html, body').animate({
             scrollTop: $("#fh5co-gallery").offset().top
+        }, 1200, 'easeInOutExpo');
+        return false;
+    });
+
+    $('#link-persons').on('click', function(event){
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#fh5co-testimonial").offset().top
+        }, 1200, 'easeInOutExpo');
+        return false;
+    });
+
+    $('#link-gifts').on('click', function(event){
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#mesaregalos").offset().top
+        }, 1200, 'easeInOutExpo');
+        return false;
+    });
+
+    $('#link-asist').on('click', function(event){
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("#fh5co-started").offset().top
         }, 1200, 'easeInOutExpo');
         return false;
     });
