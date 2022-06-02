@@ -664,9 +664,14 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 7px;
   border-radius: 7px;
 }
-@media screen and (max-width: 480px) {
-  #fh5co-gallery-list li {
-    margin-left: 0;
+#fh5co-gallery-list .item img {
+  height: 220px;
+  width: 220px;
+}
+@media screen and (max-width: 550px) {
+  #fh5co-gallery-list .item img {
+    height: auto;
+    width: 350px;
   }
 }
 #fh5co-gallery-list li a {

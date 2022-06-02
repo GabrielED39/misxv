@@ -151,9 +151,11 @@
 
     $('.owl-carousel').owlCarousel({
         loop:true,
+        autoplay: true,
         center:true,
         margin:10,
         nav:false,
+        rewind: false,
         responsive:{
             0:{
                 items:1
