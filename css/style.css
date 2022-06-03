@@ -467,7 +467,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   content: " ";
   width: 1px;
-  background-color: #d4d4d4;
+  background-color: #80BCFC;
   left: 50%;
   margin-left: 0px;
 }
@@ -490,7 +490,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline > li > .timeline-panel {
   width: 40%;
   float: left;
-  border: 1px solid #d4d4d4;
+  border: 1px solid #80BCFC;
   padding: 30px;
   position: relative;
   -webkit-border-radius: 4px;
@@ -1005,7 +1005,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 2em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1387,6 +1387,7 @@ form label {
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
+
 }
 #fh5co-started .form-inline .form-group {
   width: 100% !important;
@@ -1668,6 +1669,7 @@ form label {
   -o-transition: 0.5s;
   transition: 0.5s;
   padding: 8px 20px;
+
 }
 .btn.btn-md {
   padding: 8px 20px !important;
@@ -1860,5 +1862,9 @@ form label {
     width: 200px;
     height: auto;
   }
+}
+
+#back{
+  background-image: ;
 }
 /*# sourceMappingURL=style.css.map */
